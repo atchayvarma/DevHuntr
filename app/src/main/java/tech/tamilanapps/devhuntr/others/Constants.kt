@@ -7,3 +7,5 @@ const val BASE_URL = "https://devhuntr.azurewebsites.net/api/"
 
 const val HISTORY_DB_NAME = "history-database"
 const val HISTORY_TABLE_NAME = "history-table"
+const val FRAMEWORK_TABLE_NAME = "framework-table"
+const val FRAMEWORK_DB_NAME = "framework-table"

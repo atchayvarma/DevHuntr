@@ -73,7 +73,10 @@ dependencies {
     kapt "androidx.room:room-compiler:$room_version"
     implementation "androidx.room:room-ktx:$room_version"
 
-    //Hilt library
+    //Datastore libraries
+    implementation "androidx.datastore:datastore-preferences:1.0.0-rc02"
+
+    //Hilt libraries
     implementation "com.google.dagger:hilt-android:$hilt_version"
     kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
 
